@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/dada"
+        android:id="@+id/img1"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DADA NI JAY HOO"
+        android:layout_below="@+id/img1"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+      <androidx.appcompat.widget.AppCompatTextView
+          android:id="@+id/img3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="DADA IS VERY POWEFULL GOD"
+          android:layout_below="@+id/img2"
+          android:textSize="25sp"
+          android:layout_centerHorizontal="true"
+          />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="19dp"
+        android:text="CANSEL"
+        android:background="@drawable/button_round_cornar"
+        android:textColor="#FBFBFB" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:text="SIGN IN"
+        android:background="@drawable/button_round_cornar"
+        android:layout_marginEnd="25dp"
+        android:textColor="#FBFBFB"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:background="@drawable/loginscreen">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/job"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/work"
+        android:scaleType="fitXY"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Discover Your  Dream Job here"
+        android:textSize="28sp"
+        android:layout_marginTop="15dp"
+        android:layout_above="@+id/line"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/poppinssemibold_600"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore all the existing job roles based on your interest and study major"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:layout_marginBottom="30sp"
+        android:layout_above="@+id/login"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsmedium_400"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnloginwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/shape3"
+        android:text="Login"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinssemibold_600"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/shape4"
+        android:text="Register"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/inter2"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

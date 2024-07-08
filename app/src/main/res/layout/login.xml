@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backphoto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="23dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/group" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="26dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/vector" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/inter2"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/Email"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:layout_marginLeft="20dp"
+            android:drawableStart="@drawable/emil"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/yellow"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/Password"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Email"
+            android:layout_marginLeft="20dp"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:textColor="@color/yellow"
+            android:textColorHint="@color/yellow" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/battun" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRemeber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password"
+            android:layout_marginStart="35dp"
+            android:text="Remember me"
+            android:textSize="8dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Password"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="Forgot password?"
+            android:textSize="8dp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonlogin"
+            android:layout_width="240dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/tvRemeber"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape2"
+            android:fontFamily="@font/inter2"
+            android:text="LOGIN"
+            android:textSize="16dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonlogin"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="14dp"
+            android:text="Don’t have an account ?"
+            android:textSize="15dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonlogin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@+id/text"
+            android:text="Sign Up"
+            android:textColor="@color/yellow"
+            android:textSize="14dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157493229153",
+    "project_id": "fir-894ef",
+    "storage_bucket": "fir-894ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157493229153:android:70c6629b51aa48c3139c20",
+        "android_client_info": {
+          "package_name": "com.example.senilproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCc9Qk5GK4Ig96JglzIniICh1qUiIumIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

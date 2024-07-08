@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    <styles name = "Button"/>-->
+    
+    <item name="fontFamily" type="font">@font/inter</item>
+</resources>
